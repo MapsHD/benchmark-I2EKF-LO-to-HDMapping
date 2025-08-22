@@ -1,0 +1,9 @@
+[submodule "src/I2EKF-LO"]
+	path = src/I2EKF-LO
+	url = https://github.com/YWL0720/I2EKF-LO
+[submodule "src/i2ekf-lo-to-hdmapping/src/3rdparty/LASzip"]
+	path = src/i2ekf-lo-to-hdmapping/src/3rdparty/LASzip
+	url = https://github.com/LASzip/LASzip.git
+[submodule "src/livox_ros_driver"]
+	path = src/livox_ros_driver
+	url = https://github.com/Livox-SDK/livox_ros_driver.git
