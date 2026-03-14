@@ -41,6 +41,10 @@ WORKDIR /ros_ws
 
 COPY ./src ./src
 
+RUN sed -i \
+    -e 's|lid_topic:  "/velodyne_points_0"|lid_topic:  "/velodyne_points"|g' \
+    src/I2EKF-LO/config/velodyne.yaml
+
 RUN source /opt/ros/noetic/setup.bash && \
     catkin_make
     
